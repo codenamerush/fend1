@@ -42,3 +42,4 @@ while (num>0) {
 }
 
     console.log(output);
+//finished
