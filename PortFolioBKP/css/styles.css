@@ -1,0 +1,116 @@
+/*classes*/
+.image-logo {
+	width: 80px;
+	border-radius: 50px; 
+	border: solid 2px #ffffff;
+}
+
+.nav-item {
+	position: static;
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item:hover{
+	text-decoration: overline;
+}
+
+.nav-link {
+	color: #000000;
+}
+
+.navbar-brand {
+	margin-left: 10px;
+}
+
+.header-text {
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.page-content {
+	height: 100vh;
+}
+
+.my-image {
+	display: block;
+    margin: 0 auto;
+	max-width: 100px;
+	height: 100px;
+	border-radius: 70px;
+}
+
+.social-media-images {
+	display: inline-block;
+    margin: 0 auto;
+	max-width: 100px;
+	height: 100px;
+	border-radius: 70px;
+}
+
+.media-images {
+	display: block;
+    margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
+.github-link {
+	color: black;
+	text-align: center;
+}
+
+.github-link:hover {
+	color: #BCAAA4;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.form-horizontal .modal-header {
+	border: none;
+	padding-bottom: 0;
+}
+
+a:hover {
+	color: white;
+}
+
+@media (min-width: 768px) {
+  .bootstrap-vertical-nav .collapse {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  li.nav-item a {
+    padding-left: 0;
+  }
+
+  .navbar {
+  	position: fixed;
+  	background-color: rgba(0,0,0,0.3);
+  	height: 100vh;
+  	padding: 20px;
+  }
+}
+
+body {
+    background-image: url("./../img/papers.jpg");
+    background-attachment: fixed;
+    background-size: 100%; 
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333; Modern Browsers
+}
+
+/*ids*/
